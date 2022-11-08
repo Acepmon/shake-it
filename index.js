@@ -28,12 +28,12 @@ class MainController {
       scene.element.classList.add("cue-in")
       scene.element.style.display = "block"
       
-      document.title = "Conga!"
+      document.title = "Сэгсэр сэгсэр, сэгсэрээд өг!"
     })
     
     // Button:
     const button = document.createElement("button")
-    button.textContent = "Trust me"
+    button.textContent = "Зүгээр2, Надад итгэ"
     button.addEventListener("click", (event) => {
       // Remove button:
       button.parentNode.removeChild(button)
